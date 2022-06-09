@@ -1,0 +1,12 @@
+: 1
+name: autoinstall
+version: 0.1.0-a.0.z
+summary: autoinstall C++ executable
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/autoinstall
+email: rtmbaertschi007@gmail.com
+#build-error-email: rtmbaertschi007@gmail.com
+depends: * build2 >= 0.14.0
+depends: * bpkg >= 0.14.0
+#depends: libhello ^1.0.0
