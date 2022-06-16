@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "buildfile": "makefile",
+        "*.build": "makefile",
+        "testscript": "shellscript"
+    },
+    "clangd.checkUpdates": true
+}

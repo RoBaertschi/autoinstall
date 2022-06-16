@@ -1,14 +1,17 @@
+#include <cstdlib>
 #include <iostream>
+#include <ostream>
+#include <string>
 
-int main (int argc, char* argv[])
-{
-  using namespace std;
+void showUsage(std::string name) {
+    std::cerr << "Usage: " << name << " <option(s)> DIRECTORY\n"
+        << "Options:\n"
+        << "NONE" << std::endl;
+}
 
-  if (argc < 2)
-  {
-    cerr << "error: missing name" << endl;
-    return 1;
-  }
+int main(int argc, char *argv []) {
 
-  cout << "Hello, " << argv[1] << '!' << endl;
+    showUsage(argv[0]);
+
+    return EXIT_FAILURE;
 }

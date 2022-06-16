@@ -1,9 +1,8 @@
 : basics
 :
-$* 'World' >'Hello, World!'
-
-: missing-name
-:
-$* 2>>EOE != 0
-error: missing name
+$* 2>>"EOE" !=0
+Usage: $0 <option\(s\)> DIRECTORY
+Options:
+NONE
 EOE
+
